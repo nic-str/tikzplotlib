@@ -398,7 +398,7 @@ class Flavors(enum.Enum):
         r"\end{{{}}}",
         "document",
         """\
-\\documentclass{{standalone}}
+\\documentclass[crop,tikz]{{standalone}}
 \\usepackage[utf8]{{inputenc}}
 \\usepackage{{pgfplots}}
 \\DeclareUnicodeCharacter{{2212}}{{−}}
